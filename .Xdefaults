@@ -1,0 +1,32 @@
+!-----------------------------------------!
+
+Xcursor*theme: Vanilla-DMZ-AA
+
+!-----------------------------------------!
+
+XTerm*cursorColor:      #dcdccc
+XTerm.vt100.geometry:   85x15
+XTerm*scrollBar:        false
+xterm*cursorBlink: true
+XTerm*scrollTtyOutput:  true
+!xterm*faceName: Droid Sans Mono
+!xterm*faceName: Terminus
+!xterm*faceName: cure
+xterm*faceName: Monospace
+!xterm*faceName: Lucida Console
+xterm*faceSize: 8
+!xterm*faceName:           xft:Pragmata:pixelsize=10
+
+
+musica*VT100.geometry: 150x45
+musica*cursorColor:      #dcdccc
+musica*scrollBar:        false
+musica*cursorBlink: true
+!XTerm*scrollTtyOutput:  true
+!xterm*faceName: Droid Sans Mono
+musica*faceName: cure
+
+!-------------------------------------------------!
+
+
+#include "/home/artaserse/.colors/222ad3.colors"
