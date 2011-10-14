@@ -1,0 +1,26 @@
+music_directory       "/home/artaserse/Musica"         # Your music dir.
+playlist_directory    "/home/artaserse/.mpd/playlists"
+db_file               "/home/artaserse/.mpd/mpd.db"
+log_file              "/home/artaserse/.mpd/mpd.log"
+pid_file              "/home/artaserse/.mpd/mpd.pid"
+state_file            "/home/artaserse/.mpd/mpdstate"
+user                  "artaserse"
+# Binding to address and port causing problems in mpd-0.14.2 best to leave
+# commented.
+# bind_to_address       "localhost"
+# port                  "6600"
+#
+
+
+#audio_output {
+  #type    "alsa"
+#  name    "equal"
+#  device  "plug:plugequal"
+#}
+
+#audio_output {
+#       type            "fifo"
+#        name            "my_fifo"
+#       path            "/home/artaserse/.mpd/mpd.fifo"
+#        format          "44100:16:1"
+#}
