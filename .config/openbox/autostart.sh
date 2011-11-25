@@ -13,9 +13,12 @@ fi
 
 ####
 #brightness in userspace
-xbacklight -set 30
+xbacklight -set 30 &
 ####
-
+###
+# numlock attivo all'avvio
+numlockx &
+###
 
 
 
@@ -25,11 +28,13 @@ xcompmgr -c -t-3 -l-5 -r4.2 &
 #numlockx on &
 dropboxd &
 tint2 & 
-#conky -c ~/Conky/new/conkyrc &
+volwheel&
 thunar --daemon &
 mpd ~/.mpd/config &
 #mpdscribble &
 #bmpanel2 &
 sonata --hidden &
 #wicd-gtk &
+pidgin &
+gnote&
 ########################################################
